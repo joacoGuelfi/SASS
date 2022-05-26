@@ -1,0 +1,50 @@
+@import "var";
+
+
+h1{
+    color: rgb(41, 41, 236);
+    font-family: $font-titulos;
+    text-align: center;
+    &:hover{
+        color: rgb(91, 91, 235);
+    }
+}
+
+nav{
+    li{
+        display: inline-block;
+
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            font-weight: bold;
+            &:hover{
+                color: rgb(70, 66, 66);
+            }
+        }
+    }
+    
+}
+
+.contenido{
+    padding: 5px;
+    
+    img{
+        border-radius: 10px;
+    }
+    h2{
+        color:$color-titulos;
+        font-family:$font-titulos ;
+        &:hover{
+            color: $hover-titulos;
+        }
+    }
+    p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: $font-size-parrafos - 1.5rem;
+    }
+    .articulo:hover{
+        filter: grayscale(50%);
+    }
+}

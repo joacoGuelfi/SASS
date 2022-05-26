@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap");
+h1 {
+  color: #2929ec;
+  font-family: "Tiro Bangla", serif;
+  text-align: center; }
+  h1:hover {
+    color: #5b5beb; }
+
+nav li {
+  display: inline-block; }
+  nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold; }
+    nav li a:hover {
+      color: #464242; }
+
+.contenido {
+  padding: 5px; }
+  .contenido img {
+    border-radius: 10px; }
+  .contenido h2 {
+    color: #2929ec;
+    font-family: "Tiro Bangla", serif; }
+    .contenido h2:hover {
+      color: #5b5beb; }
+  .contenido p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem; }
+  .contenido .articulo:hover {
+    filter: grayscale(50%); }

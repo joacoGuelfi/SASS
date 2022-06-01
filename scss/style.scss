@@ -11,6 +11,9 @@ h1{
 }
 
 nav{
+    ul{
+        background-color: rgb(190, 184, 184);
+    }
     li{
         display: inline-block;
 
@@ -47,4 +50,10 @@ nav{
     .articulo:hover{
         filter: grayscale(50%);
     }
+}
+
+.navDeportes{
+    display: inline-block;
+    list-style-type: none;
+    
 }

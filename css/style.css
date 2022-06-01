@@ -6,6 +6,9 @@ h1 {
   h1:hover {
     color: #5b5beb; }
 
+nav ul {
+  background-color: #beb8b8; }
+
 nav li {
   display: inline-block; }
   nav li a {
@@ -30,3 +33,7 @@ nav li {
     font-size: 1.5rem; }
   .contenido .articulo:hover {
     filter: grayscale(50%); }
+
+.navDeportes {
+  display: inline-block;
+  list-style-type: none; }

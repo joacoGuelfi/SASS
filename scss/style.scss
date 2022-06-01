@@ -8,9 +8,12 @@ h1{
     &:hover{
         color: rgb(91, 91, 235);
     }
+    a{
+        text-decoration: none;
+    }
 }
 
-nav{
+.navPrincipal{
     ul{
         background-color: rgb(190, 184, 184);
     }
@@ -52,8 +55,52 @@ nav{
     }
 }
 
+
+/* Usando MAPS*/
 .navDeportes{
-    display: inline-block;
     list-style-type: none;
-    
+    display: inline-block;
+    li{
+        display: inline-block;
+    }
+    a{
+        text-decoration: none;
+        color: map-get($mapDeportes ,colorFuente );
+        margin: map-get($mapDeportes, margen);
+        font-family: map-get($mapDeportes ,estiloFuente);
+    }
+}   
+.tituloDeporte{
+    margin-left: 20px;
+    margin-right: 10px;
+    color: map-get($mapDeportes, colorFuente );
+    font-family: map-get($mapDeportes ,estiloFuente);
+    display: inline-block;
+}
+
+.navRuta{
+    ul{
+        list-style-type: none;
+    }
+    li{
+        display: inline-block;
+    }
+}
+
+/* Extend */
+
+.contenidoDeporte {
+    @extend .contenido;
+    h2{
+        color: map-get($mapDeportes, colorFuente);
+    }
+}
+
+/* MIXIN */
+
+.imgGrande {
+    @include mixTamImg(637px, 424px);
+}
+.imgChica {
+    @include mixTamImg(375px, 229px);
 }

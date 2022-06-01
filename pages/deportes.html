@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coder Diario - Noticias de ultimo momento. - Mantenete informado</title>
     <meta name="descripton" content="Segui las noticias mas actualizadas con Coder Diario!">
     <meta name="keywords" content="DIARIO, NOTICIA, ACTUALIDAD, POLITICA, DEPORTES">
     <title>Deportes</title>
@@ -16,32 +18,70 @@
 
 
 </head>
+
 <body>
 
 
-    <h1 class="mt-4 p-3">Coder Diario</h1>
+    <h1  class="mt-4 p-3"><a href="../index.html">Coder Diario</a> </h1>
 
-
-    <nav>
+    
+    <nav class="navPrincipal">
         <hr>
         <ul class="d-flex justify-content-evenly p-2">
-            <li><a href="pages/deportes.html">Deportes</a></li>
+            <li><a href="deportes.html">Deportes</a></li>
             <li><a href="">Politica</a></li>
             <li><a href="">Economia</a></li>
             <li><a href="">Espectaculos</a></li>
         </ul>
     </nav>
 
+    <nav class="navRuta">
+        <ul>
+            <li><a href="../index.html">Inicio ></a></li>
+            <li><a href="deportes.html">Deportes ></a></li>
+        </ul>
+    </nav>
 
-    <h2>Deportes</h2>
+    <h2 class="tituloDeporte">Deportes</h2>
+
     <ul class="navDeportes">
-        <li><a href=""></a>Boca</li>
-        <li><a href=""></a>River</li>
-        <li><a href=""></a>Tenis</li>
-        <li><a href=""></a>Basket</li>
+        <li><a href="">Boca</a></li>
+        <li><a href="">River</a></li>
+        <li><a href="">Tenis</a></li>
+        <li><a href="">Basket</a></li>
     </ul>
-    
-    
+
+
+    <div class="contenidoDos containter-fluid contenidoDeporte">
+        <div class="row mt-5">
+            <div class="col-lg-1 col-md-2"></div>
+            <div class="col-lg-5 col-md-10 text-center articulo">
+                <img src="../images/messiGrande.webp" alt="noticiaImg" class="imgGrande">
+                <h2 class="mt-3 text-center">Titulo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est cupiditate debitis molestiae quo
+                    ipsam quia sit ab perspiciatis, quam possimus eligendi animi quod nobis dolor veritatis mollitia
+                    sunt quos? Quam ad nesciunt amet esse rem beatae aperiam, excepturi ab itaque suscipit expedita
+                    voluptas debitis obcaecati? Autem in eum, ipsa eaque neque rerum, commodi laborum consequuntur
+                    dolor ratione voluptatum temporibus dolorum iste. Laboriosam, ex. Sint, ex illo explicabo
+                    cupiditate numquam tempore.</p>
+            </div>
+            <div class="col-lg-5 col-md-10 text-center articulo">
+                <img class="imgChica" src="../images/deporteChica-2.webp" alt="noticiaImg">
+                <h2 class="mt-3 text-center">Titulo</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, dignissimos? Lorem, ipsum dolor
+                    sit amet consectetur adipisicing elit. Quidem, dignissimos?</p>
+
+                <img class="imgChica" src="../images/deporteChica.webp" alt="noticiaImg">
+                <h2 class="mt-3 text-center">Titulo</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, dignissimos? Lorem, ipsum dolor
+                    sit amet consectetur adipisicing elit. Quidem, dignissimos?</p>
+
+            </div>
+            <div class="col-lg-1 col-md-2"></div>
+        </div>
+    </div>
+
+
 
 
 
@@ -53,4 +93,5 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,39 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap");
+/* MAPS */
+/* MIXIN */
 h1 {
   color: #2929ec;
   font-family: "Tiro Bangla", serif;
   text-align: center; }
   h1:hover {
     color: #5b5beb; }
+  h1 a {
+    text-decoration: none; }
 
-nav ul {
+.navPrincipal ul {
   background-color: #beb8b8; }
 
-nav li {
+.navPrincipal li {
   display: inline-block; }
-  nav li a {
+  .navPrincipal li a {
     text-decoration: none;
     text-transform: uppercase;
     color: black;
     font-weight: bold; }
-    nav li a:hover {
+    .navPrincipal li a:hover {
       color: #464242; }
 
-.contenido {
+.contenido, .contenidoDeporte {
   padding: 5px; }
-  .contenido img {
+  .contenido img, .contenidoDeporte img {
     border-radius: 10px; }
-  .contenido h2 {
+  .contenido h2, .contenidoDeporte h2 {
     color: #2929ec;
     font-family: "Tiro Bangla", serif; }
-    .contenido h2:hover {
+    .contenido h2:hover, .contenidoDeporte h2:hover {
       color: #5b5beb; }
-  .contenido p {
+  .contenido p, .contenidoDeporte p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem; }
-  .contenido .articulo:hover {
+  .contenido .articulo:hover, .contenidoDeporte .articulo:hover {
     filter: grayscale(50%); }
 
+/* Usando MAPS*/
 .navDeportes {
-  display: inline-block;
+  list-style-type: none;
+  display: inline-block; }
+  .navDeportes li {
+    display: inline-block; }
+  .navDeportes a {
+    text-decoration: none;
+    color: #3aa13a;
+    margin: 5px;
+    font-family: "Tiro Bangla"; }
+
+.tituloDeporte {
+  margin-left: 20px;
+  margin-right: 10px;
+  color: #3aa13a;
+  font-family: "Tiro Bangla";
+  display: inline-block; }
+
+.navRuta ul {
   list-style-type: none; }
+
+.navRuta li {
+  display: inline-block; }
+
+/* Extend */
+.contenidoDeporte h2 {
+  color: #3aa13a; }
+
+/* MIXIN */
+.imgGrande {
+  width: 637px;
+  height: 424px; }
+
+.imgChica {
+  width: 375px;
+  height: 229px; }
